@@ -1,0 +1,38 @@
+Aarushi Wadhwa
+Timesheet
+
+11/19/2016:
+    2 hours – downloading, setting up, and working panda3d and blender
+    3 hours – competitive analysis, storyboard, project proposal
+11/20/2016:
+    3 hours – watching tutorials of how to use panda3d in basics
+    3 hours – understanding provided demos and tutorials downloaded with panda3d
+    2 hours – understanding blender uses… creating the maze and jewels
+    2 hours – trying to make Yabee work (but to no avail)
+11/21/2016:
+    4 hours – coding to create the maze and adjust the camera (player position) as desired… 
+coded to add randomly chosen and placed jewels in the maze, and accounts for if the player gets the jewel
+11/28/2016:
+    8 hours – worked on randomly generating the maze in 3 ways. Was able to randomly generate, but not make a legal maze (a maze with a path). Found a way, but it had a recursion of maximum depth.    
+11/29/2016:
+    9 hours – After playing with the created mazes from yesterday, I tried 3 different ways to create the maze. 2 of them worked on small boards… 4by4 and 5by5… Large boards called the recursive function to maximum recursion depths. Found a new way to approach randomly generating the maze(which I will do the next day). I also started creating the various screenmodes for the UI. I also configured the given panda3d files to make panda3d and tkinter work together so that I could use tkinter for all my screens, except for the game mode.  
+11/30/2016:
+    6 hours – various screenmodes and creating the maze in yet another approach for it to function with larger dimensions
+12/1/2016:
+    3 hours – worked with the game mode and graphics and list of the board (options bar, jewel box)
+12/2/2016:
+    5 hours – worked with the game and coded the logic (when, where, and how to create plants, the zombies creating itself with random intervals)
+12/3/2016: 
+    12 hours – worked on creating the “shooters”, what shoots out of each plant and moving each shooter (to actually shoot the zombie or not), worked with collisions of the shooters with zombies  
+12/4/2016:
+    10 hours – images on all screens, and locations. Bugs in creating the zombies, where they belong, their intervals, the number of them.
+12/5/2016: 
+    5 hours – worked with the game to incorporate levels (changes the number of zombies, intervals between timer created aspects such as walnut explosions)
+12/6/2016:
+    10 hours – fixing bugs!! Of movement of the shooters, collisions, recreating of the shooters (essentially the class information for everything)
+12/7/2016:
+    10 hours – worked on walnut explosions with the L algorithm, and making the peashooters move in the y direction as well with gravity
+    2 hours – creating the deliverables
+12/8/2016:
+    3 hours – Working on setting the zombies on fire with the recursive L algorithm fractal method and making the peashooters move in the y direction as well with gravity bugs 
+

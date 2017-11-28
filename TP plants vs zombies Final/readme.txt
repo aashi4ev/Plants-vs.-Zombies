@@ -1,0 +1,6 @@
+Aarushi Wadhwa
+Plants vs. Zombies
+
+    My term project is the very similar to the popular game, Plants vs. Zombies. In fact, there are only a few differences. As a whole, the goal of the game is to prevent the created zombies from encroaching upon, and arriving at the Jewel/Jewel Box. To do this, the player can use its money to create and place Peashooters and Cacti. These two plants will attack and kill the zombies using peas and thorns, respectively. The player can also choose to create and place a Wall-nut. This Wall-nut will function as a wall, and prevent the adjacent zombie from moving forward. But if the walnuts are left on the board for too long, this time is dependent on the level and the number of walnuts on the board, the walnuts will explode using an L-algorithmic fractal approach. To create more money, to be able to create more defenses against the zombies, the player can create and place a Sunflower which will create a money ball and add to their money count. If won, the player will move onto the next level, which increases in difficulty by changing the number of zombies present on the board exponentially, and the intervals between all created characters in the game. 
+	For this project, I used python and tkinter — make sure that you have python installed.
+	To play this game, run the “FINAL p vs z.py” file.

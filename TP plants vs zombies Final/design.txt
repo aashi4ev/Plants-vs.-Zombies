@@ -1,0 +1,34 @@
+Aarushi Wadhwa
+Design Document
+
+My term project is Plants vs. Zombies. It is very similar to the well-known game, but they have their differences. Such differences will be seen throughout this text, and I will cover how I made the decisions to implement the changes I chose to make.
+
+############################### mainscreen #####################################
+
+This mainscreen brings the player to the introduction of the game which includes the title, the current level the player is on, and the options to either begin playing, or go to the helpscreen for instructions on how to play.
+
+############################### helpscreen #####################################
+
+This screen was essential to this project to avoid any confusion about how to play the game. This screen covers the goal of the game, how to start playing, and the various features of the game that will help the player achieve the game's goal. The features covered includes all the different types of plants you can select to fight the zombies. From this screen, the player can go back to the mainscreen, or go ahead and start playing by clicking on the play button.
+
+################################# playmode #####################################
+
+As with both versions, mine and the  popular game essentially create zombies to encroach upon the "home", or in my case the Jewel. The purpose of the game is to kill the zombies before they arrive at the Jewel Box, thus protecting the jewel. Like the real game, the player can place plants on the board, each type of plant serves its own purpose, in order to kill and attack the zombies to prevent them from reaching the jewel box. 
+
+To start off, the player starts off with a certain amount of money which allows them to create certain plants. Each plant requires and uses a certain amount of money to create and place. The money values of the plants were chosen by me and in relation to their usefulness in helping to achieve the goal. More energy can be created by creating the Sunflower plant, which shoots an energy ball upwards towards the game optionsbar, or the game's information storage location. Once the money ball does arrive at this location, the game storage information will update to reflect this change--the amount of money the player has will increase by 20. 
+
+Once the player has started the game, the zombies will generate and begin to approach the jewel box. The number of zombies increases exponentially as the level of the game increases.
+
+To kill the zombies, you can create and place a Cactus plant. If the zombie is approaching the cactus, the cactus will shoot a thorn at the zombie and kill the zombie. Thus, the cactus is the most valued plant, at a money usage of 30.
+
+Another way to kill the zombies is to attack them every so often, with a little less effective attacker. The Peashooter is a plant that can be placed on the board. If a peashooter is being approached by zombies, the peashooter will shoot peas at the closest zombie. If the pea hits the zombie, it will be used up, and the zombies health will decrease incrementally. Once the zombie no longer has any health, it will be dead. 
+
+Lastly, there is the Wall-nut plant. This plant does not serve to kill the zombie, rather it serves as a wall and prevents the adjacent zombies from moving forward toward the jewel box. It is possible that this function can leave us in an infinite loop, since the zombies never reach the jewel box, and cause the player to lose, and zombies still remain on the board. Thus, in order to fix this problem, I created a function that determines if the walnuts have been on the board for too long of a period of time. This period of time is dependent on the number of walnuts on the board, and the level of the game being played. The greater the number of walnuts, and the greater the level, the less time the walnuts can remain on the board for. Once this time has expired, and there are still zombies on the board, the walnuts explode, using an L system algorithm to draw the explosion, and the player loses.
+
+################################# losescreen ###################################
+
+If the player lost the last game, the losescreen will appear, and the player will be given options to once again look at the helpscreen for instructions, and to play again. All previous game data will be lost, and the player will start at the level it was on. 
+
+################################## winscreen ###################################
+
+If the player won the last game, the winscreen will appear, and the player will be given options to once again look at the helpscreen for instructions, and to play again on the next level. All previous game data will be lost, but the player will start at the level it was on. 
